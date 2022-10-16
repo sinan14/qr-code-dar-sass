@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: hsl(212deg, 45%, 89%);
+  overflow-x: hidden;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  text-align: center;
+  font-family: "Outfit", serif;
+  font-size: 1.5rem;
+}
+
+.heading-primary {
+  color: hsl(218deg, 44%, 22%);
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 2rem;
+  display: flex;
+  margin: 10rem auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  width: 20%;
+  height: 40%;
+  padding-bottom: 48px;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+@media (max-width: 450px) {
+  .container {
+    width: 85%;
+    height: 80%;
+    margin-top: 8rem;
+  }
+}
+
+.qr__code-box {
+  width: 100%;
+  padding-top: 1.5rem;
+}
+.qr__code-img {
+  width: 90%;
+  height: 40%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.description__box {
+  padding: 1.5rem;
+}
+
+.heading__primary {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.heading__description {
+  color: hsl(212deg, 45%, 89%);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+}
+@media (max-width: 450px) {
+  .heading__description {
+    font-size: 1.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
