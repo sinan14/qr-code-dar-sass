@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-@import "abstracts/variables";
-@import "abstracts/mixins";
-@import "base/base";
-@import "base/typography";
-@import "base/utilities";
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
 
 .container {
   background-color: $white;
@@ -17,7 +17,7 @@
   gap: 1rem;
   width: 20%;
   height: 40%;
-  padding-bottom: 48px;
+  padding-bottom: 24px;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
