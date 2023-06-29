@@ -1,5 +1,5 @@
 # The project is live at
-https://front-end-mentor-works.github.io/product-preview-card/
+https://front-end-mentor-works.github.io/qr-code-dar-sass/
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
